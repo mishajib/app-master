@@ -1,0 +1,47 @@
+/*
+ * BootstrapPlusPlus - App landing Page HTML Template v1.0.0-beta (https://bootstrapplusplus.com/templates/app)
+ * Copyright 2017 Bootstrap++
+ * Licensed under MIT (https://github.com/BootstrapPlusPlus/App/blob/v1.0.0-beta/LICENSE.md)
+ */
+
+/* responsive style */
+@media screen and (max-width: 1280px) {
+    header img {
+        left: 25%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav-fix .navbar-toggler i {
+        color: rgba(255, 255, 255, 1);
+    }
+	.features img {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+    header h1, section h1 {
+        font-size: 23px !important;
+        line-height: 32px !important;
+    }
+    nav {
+        background: rgba(17, 29, 51, 1);
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    nav h3, nav ul {
+        float: none;
+        width: 100%;
+    }
+    form h3 {
+        margin-top: 2rem;
+    }
+    footer, footer ul {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+	.download img {
+		margin-bottom: 5px;
+	}
+}

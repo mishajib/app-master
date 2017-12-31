@@ -1,0 +1,191 @@
+/*
+ * BootstrapPlusPlus - App landing Page HTML Template v1.0.0-beta (https://bootstrapplusplus.com/templates/app)
+ * Copyright 2017 Bootstrap++
+ * Licensed under MIT (https://github.com/BootstrapPlusPlus/App/blob/v1.0.0-beta/LICENSE.md)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+.bar {
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+	background: rgba(189, 51, 129, 1);
+}
+
+/* navbar style */
+nav {
+    padding: 10px 0;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+nav .navbar-brand {
+    margin: 0;
+    width: 50%;
+    padding: 8px 12px 8px 0;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+}
+.navbar {
+	padding: 0 1rem;
+}
+.nav-fix {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    top: 0;
+    background: rgba(17, 29, 51, 1);
+}
+.navbar-toggler i {
+    font-size: 32px;
+    color: rgba(27, 51, 75, 1);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 12px 12px 8px;
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.nav-fix ul li a {
+    color: rgba(255, 255, 255, 1);
+}
+.nav-link.active {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* header style */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://placehold.it/1920x1080);
+    background-size: cover;
+    display: table;
+	position: relative;
+}
+header h1 {
+    color: rgba(27, 51, 75, 1);
+	line-height: 50px;
+}
+.home-text {
+	height: 100vh;
+}
+header .btn {
+	border: 1px solid #fff;
+}
+header .btn:hover {
+	color: rgba(27, 51, 75, 1) !important;
+	border: 1px solid #fff;
+	background: #fff;
+}
+header img {
+	position: absolute; 
+	bottom: 25px;
+}
+
+/* features style */
+.features {
+    width: 100%;
+}
+.features-control {
+	margin-bottom: -5rem;
+}
+.features i {
+	font-size: 4rem;
+}
+.features h1 {
+    font-weight: bold;
+}
+.features p {
+	margin-bottom: 2rem;
+}
+.img-title {
+    margin: 25px 25px 45px 25px;
+    font-size: 18px;
+}
+
+/* about style */
+.download {
+    background: rgba(27, 51, 75, 0.1);
+	margin-top: 6rem;
+}
+.download h1 {
+	font-size: 60px;
+	max-width: 650px;
+	margin: 5rem auto 0;
+}
+.download p {
+	margin: 10px auto 20px;
+}
+.download img {
+	width: 200px;
+	margin-bottom: 5rem;
+}
+
+/* contact style */
+.contact {
+    margin-bottom: 5rem;
+}
+.contact h1 {
+    font-weight: bold;
+    padding-top: 8rem;
+}
+.contact a.btn {
+    line-height: 36px;
+}
+.contact i {
+    font-size: 24px;
+}
+
+/* footer style */
+footer {
+    padding: 25px 0;
+    color: #fff;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.9);
+}
+footer p {
+    margin-bottom: 0;
+}
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a, footer ul li a:hover {
+    color: #fff;
+}
+
+/* scroll to top style */
+.btn-scroll-top {
+    background: rgba(27, 51, 75, 1);
+}
